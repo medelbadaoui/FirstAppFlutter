@@ -1,6 +1,6 @@
-# firstassignement
+# FlutterApp
 
-A new Flutter application.
+A simple Flutter app with some fancy functionalities.
 
 ## Getting Started
 
