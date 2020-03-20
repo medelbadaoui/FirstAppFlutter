@@ -12,6 +12,9 @@ A simple Flutter app with some fancy functionalities.
 ![](screenshots/Gallery1.png)
 ![](screenshots/Gallery2.png)
 
+## Video Simulation
+[![Simulation](https://img.youtube.com/vi/-skxp-JfP6o/0.jpg)](https://www.youtube.com/watch?v=-skxp-JfP6o)
+
 ## Getting Started
 
 
