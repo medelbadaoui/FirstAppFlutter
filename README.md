@@ -2,7 +2,18 @@
 
 A simple Flutter app with some fancy functionalities.
 
+## Screenshots
+![](screenshots/HomePage.png)
+![](screenshots/Drawer.png)
+![](screenshots/Quiz1.png)
+![](screenshots/Quiz5.png)
+![](screenshots/Weather1.png)
+![](screenshots/Weather2.png)
+![](screenshots/Gallery1.png)
+![](screenshots/Gallery2.png)
+
 ## Getting Started
+
 
 This project is a starting point for a Flutter application.
 
