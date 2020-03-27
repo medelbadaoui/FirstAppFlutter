@@ -83,10 +83,11 @@ class _WeatherPageState extends State<WeatherPage> {
                 return CircularProgressIndicator();
               }
               if (snapshot.hasData) {
+                print(data.length);
                 if (data['list'] != null && data.length != null)
                   return Expanded(
                     child: ListView.builder(
-                        itemCount: data.length,
+                        itemCount: data['list'].length,
                         itemBuilder: (context, index) {
                           return new Column(
                             children: <Widget>[

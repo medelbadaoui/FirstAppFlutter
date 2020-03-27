@@ -29,8 +29,7 @@ class _GalleryPageState extends State<GalleryPage> {
         'https://pixabay.com/api/?key=5832566-81dc7429a63c86e3b707d0429&q=' +
             key +
             '&image_type=photo&pretty=true';
-    http.Response response = await http
-        .get(Uri.encodeFull(url), headers: {'accept': 'application/json'});
+    http.Response response = await http.get(url);
     return json.decode(response.body);
   }
 
@@ -87,7 +86,7 @@ class _GalleryPageState extends State<GalleryPage> {
                 if (snapshot.data['totalHits'] != 0 && data.length != null)
                   return Expanded(
                     child: ListView.builder(
-                        itemCount: data.length,
+                        itemCount: data['hits'].length,
                         itemBuilder: (context, index) {
                           return new Column(
                             children: <Widget>[
