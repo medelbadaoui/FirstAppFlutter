@@ -26,10 +26,11 @@ class _GalleryPageState extends State<GalleryPage> {
   Future<Map> getPics(String key) async {
     replacespace(key);
     String url =
-        'https://pixabay.com/api/?key=15597993-c07809e8352135b4cce935710&q=' +
+        'https://pixabay.com/api/?key=5832566-81dc7429a63c86e3b707d0429&q=' +
             key +
             '&image_type=photo&pretty=true';
-    http.Response response = await http.get(url);
+    http.Response response = await http
+        .get(Uri.encodeFull(url), headers: {'accept': 'application/json'});
     return json.decode(response.body);
   }
 

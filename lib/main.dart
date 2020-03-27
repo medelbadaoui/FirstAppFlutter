@@ -4,6 +4,7 @@ import 'package:firstassignement/WeatherPage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'BarCodePage.dart';
 import 'CustomDrawer.dart';
 import 'HomePage.dart';
 
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/a': (BuildContext context) => QuizPage(),
         '/b': (BuildContext context) => WeatherPage(),
         '/c': (BuildContext context) => GalleryPage(),
+        '/d': (BuildContext context) => BarCodePage(),
       },
     );
   }

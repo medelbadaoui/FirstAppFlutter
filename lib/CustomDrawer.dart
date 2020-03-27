@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 Drawer customDrawer(BuildContext context, int index) {
-  List<bool> liste = [false, false, false, false];
+  List<bool> liste = [false, false, false, false, false];
   liste[index] = true;
 
   return Drawer(
@@ -91,6 +91,17 @@ Drawer customDrawer(BuildContext context, int index) {
                 selected: liste[3],
                 title: Text('Galery'),
                 leading: Icon(Icons.image)),
+            Divider(
+              height: 0,
+              thickness: 4,
+            ),
+            ListTile(
+                onTap: () {
+                  Navigator.pushNamed(context, '/d');
+                },
+                selected: liste[4],
+                title: Text('Bar Code Scanner'),
+                leading: Icon(Icons.code)),
             Divider(
               height: 0,
               thickness: 4,
