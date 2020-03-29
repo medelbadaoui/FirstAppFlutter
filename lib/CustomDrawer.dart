@@ -100,7 +100,7 @@ Drawer customDrawer(BuildContext context, int index) {
                   Navigator.pushNamed(context, '/d');
                 },
                 selected: liste[4],
-                title: Text('Bar Code Scanner'),
+                title: Text('QR Code Scanner'),
                 leading: Icon(Icons.code)),
             Divider(
               height: 0,
