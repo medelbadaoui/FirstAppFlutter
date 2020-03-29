@@ -1,3 +1,4 @@
+import 'package:firstassignement/CameraPage.dart';
 import 'package:firstassignement/GalleryPage.dart';
 import 'package:firstassignement/QuizPage.dart';
 import 'package:firstassignement/WeatherPage.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/b': (BuildContext context) => WeatherPage(),
         '/c': (BuildContext context) => GalleryPage(),
         '/d': (BuildContext context) => BarCodePage(),
+        '/e': (BuildContext context) => CameraPage(),
       },
     );
   }
