@@ -89,7 +89,7 @@ Drawer customDrawer(BuildContext context, int index) {
                   Navigator.pushNamed(context, '/c');
                 },
                 selected: liste[3],
-                title: Text('Galery'),
+                title: Text('Gallery'),
                 leading: Icon(Icons.image)),
             Divider(
               height: 0,
